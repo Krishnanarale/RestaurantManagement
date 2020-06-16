@@ -25,11 +25,8 @@
 - Set database creadential at application/config/database.php
 - Visit url in browser "http://localhost/RestaurantManagement".
 - Admin Credential listed below.
-	######################
-	Super Admin Crednetial
-	######################
-	email: admin@admin.com
-	password: password
+	- email: admin@admin.com
+	- password: password
 
 # For any help.
 

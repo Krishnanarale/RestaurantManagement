@@ -36,7 +36,7 @@
           <?php if(in_array('createGroup', $user_permission) || in_array('updateGroup', $user_permission) || in_array('viewGroup', $user_permission) || in_array('deleteGroup', $user_permission)): ?>
             <li class="treeview" id="groupMainNav">
               <a href="#">
-                <i class="fa fa-files-o"></i>
+                <i class="fa fa-universal-access"></i>
                 <span>Groups</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
@@ -58,15 +58,15 @@
 
         <!-- <li class="header">Settings</li> -->
         <?php if(in_array('createStore', $user_permission) || in_array('updateStore', $user_permission) || in_array('viewStore', $user_permission) || in_array('deleteStore', $user_permission)): ?>
-          <li id="storesMainNav"><a href="<?php echo base_url('stores/') ?>"><i class="fa fa-files-o"></i> <span>Stores</span></a></li>
+          <li id="storesMainNav"><a href="<?php echo base_url('stores/') ?>"><i class="fa fa-home"></i> <span>Stores</span></a></li>
         <?php endif; ?>
 
         <?php if(in_array('createTable', $user_permission) || in_array('updateTable', $user_permission) || in_array('viewTable', $user_permission) || in_array('deleteTable', $user_permission)): ?>
-          <li id="tablesMainNav"><a href="<?php echo base_url('tables/') ?>"><i class="fa fa-files-o"></i> <span>Tables</span></a></li>
+          <li id="tablesMainNav"><a href="<?php echo base_url('tables/') ?>"><i class="fa fa-circle"></i> <span>Tables</span></a></li>
         <?php endif; ?>
 
         <?php if(in_array('createCategory', $user_permission) || in_array('updateCategory', $user_permission) || in_array('viewCategory', $user_permission) || in_array('deleteCategory', $user_permission)): ?>
-          <li id="categoryMainNav"><a href="<?php echo base_url('category/') ?>"><i class="fa fa-files-o"></i> <span>Category</span></a></li>
+          <li id="categoryMainNav"><a href="<?php echo base_url('category/') ?>"><i class="fa fa-sitemap"></i> <span>Item Category</span></a></li>
         <?php endif; ?>
 
         
@@ -74,7 +74,7 @@
         <?php if(in_array('createProduct', $user_permission) || in_array('updateProduct', $user_permission) || in_array('viewProduct', $user_permission) || in_array('deleteProduct', $user_permission)): ?>
             <li class="treeview" id="productMainNav">
               <a href="#">
-                <i class="fa fa-files-o"></i>
+                <i class="fa fa-cutlery"></i>
                 <span>Products</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
@@ -94,7 +94,7 @@
           <?php if(in_array('createOrder', $user_permission) || in_array('updateOrder', $user_permission) || in_array('viewOrder', $user_permission) || in_array('deleteOrder', $user_permission)): ?>
             <li class="treeview" id="OrderMainNav">
               <a href="#">
-                <i class="fa fa-files-o"></i>
+                <i class="fa fa-first-order"></i>
                 <span>Orders</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
@@ -114,7 +114,7 @@
           <?php if(in_array('viewReport', $user_permission)): ?>
             <li class="treeview" id="ReportMainNav">
               <a href="#">
-                <i class="fa fa-files-o"></i>
+                <i class="fa fa-bar-chart"></i>
                 <span>Reports</span>
                 <span class="pull-right-container">
                   <i class="fa fa-angle-left pull-right"></i>
@@ -130,14 +130,14 @@
           <?php endif; ?>
 
           <?php if(in_array('updateCompany', $user_permission)): ?>
-            <li id="companyMainNav"><a href="<?php echo base_url('company/') ?>"><i class="fa fa-files-o"></i> <span>Company Info</span></a></li>
+            <li id="companyMainNav"><a href="<?php echo base_url('company/') ?>"><i class="fa fa-bank"></i> <span>Company</span></a></li>
           <?php endif; ?>
 
           <?php if(in_array('viewProfile', $user_permission)): ?>
-            <li id="profileMainNav"><a href="<?php echo base_url('users/profile/') ?>"><i class="fa fa-files-o"></i> <span>Profile</span></a></li>
+            <li id="profileMainNav"><a href="<?php echo base_url('users/profile/') ?>"><i class="fa fa-user"></i> <span>Profile</span></a></li>
           <?php endif; ?>
           <?php if(in_array('updateSetting', $user_permission)): ?>
-            <li id="settingMainNav"><a href="<?php echo base_url('users/setting/') ?>"><i class="fa fa-wrench"></i> <span>Setting</span></a></li>
+            <li id="settingMainNav"><a href="<?php echo base_url('users/setting/') ?>"><i class="fa fa-cogs"></i> <span>Setting</span></a></li>
           <?php endif; ?>
 
         <?php endif; ?>
